@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    padding-bottom:20px;
+}
+
+.h2{
+    font-weight: bolder;
+    padding:20px;
+}
+
+.upload{
+    /* background-color: aqua; */
+    justify-content: center;
+}
+
+button{
+    background-color: rgb(63, 182, 63);
+    padding:10px;
+    font-size:16px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:12px;
+}
+
+button:hover{
+    background-color:rgb(151, 236, 24);
+    /* transform:scale(1.1); */
+}
+input{
+    font-size:15px;
+    padding: 20px;
+}
