@@ -2,6 +2,7 @@ import os
 from flask import Flask, request, jsonify, send_from_directory, render_template, url_for
 import face_recognition
 from flask_cors import CORS
+import shutil
 
 # Initialize Flask app
 app = Flask(__name__, static_folder='static', template_folder='templates')
@@ -64,6 +65,18 @@ def upload_image():
 
         if match_found:
             # Return the matched image URL correctly using Flask's url_for
+            # matched_image_path=os.path.join(KNOWN_IMAGES_FOLDER,matched_image)
+            # destination_path=os.path.join(STATIC_FOLDER,matched_image)
+            # try:
+            #     shutil.copy(matched_image_path,destination_path)
+            #     print(f"Image copied successfully to {destination_path}")
+            #     return jsonify({
+            #     "matchFound": True,
+            #     "matchedImage": matched_image,
+            #     "imageUrl": f"/static/matches/{matched_image}"  # Provide the correct image URL for the frontend
+            # }), 200
+            # except Exception as e:
+            #     print(f"Error copying image:{e}")
             matched_image_url = url_for('static', filename=f'matches/{matched_image}')
             return jsonify({
                 "matchFound": True,

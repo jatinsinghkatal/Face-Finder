@@ -11,13 +11,17 @@
 <body>
     <div class="upload">
         <h2>Upload an Image for Face Recognition</h2>
-        <form id="upload-form" enctype="multipart/form-data">
+        <form id="upload-form" action="javascript:void(0);" enctype="multipart/form-data">
             <input type="file" id="image-file" name="image" accept="image/*" required>
             <br>
-            <button type="submit">Upload Image</button>
+            <button type="button" id="submit-button">Upload Image</button>
         </form>
+        <div id="progress-container" style="display: none;">
+            <div id="progress-bar"></div>
+        </div>
 
         <div id="result"></div>
+        
 
         <!-- Preview Section -->
         <div id="preview-container">
