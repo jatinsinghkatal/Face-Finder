@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Face Recognition Web App
 
 This project is a web-based face recognition application built using JavaScript for the front end and Python (Flask) for the back end. Users can upload an image, and the system will search through known images for a potential match. If a match is found, the matching image is displayed along with the result.
