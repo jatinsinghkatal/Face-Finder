@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Face Recognition Web App
 
@@ -85,9 +86,3 @@ Face-Finder-WebApp/
 ### 4. If No Faces Found
 
 ![No Faces Found](https://github.com/jatinsinghkatal/Images_for_Readme/blob/main/Face-Finder/Screenshot%202024-11-12%20012131.png)
-
-
-
-
-
-
