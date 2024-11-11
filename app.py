@@ -10,12 +10,12 @@ CORS(app)
 
 # Folder paths (assuming everything is in fcr/facerecognition)
 FC_PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))  # This gives the current directory (fcr/facerecognition)
-KNOWN_IMAGES_FOLDER = os.path.join(FC_PROJECT_PATH, 'known_images')  # Path to the known images
+# KNOWN_IMAGES_FOLDER = os.path.join(FC_PROJECT_PATH, 'known_images')  # Path to the known images
 UPLOAD_FOLDER = os.path.join(FC_PROJECT_PATH, 'uploads')  # Folder for uploaded images
 STATIC_FOLDER = os.path.join(FC_PROJECT_PATH, 'static', 'matches')  # Folder for storing matched images
 
 # Ensure necessary folders exist
-os.makedirs(KNOWN_IMAGES_FOLDER, exist_ok=True)
+# os.makedirs(KNOWN_IMAGES_FOLDER, exist_ok=True)
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(STATIC_FOLDER, exist_ok=True)
 
@@ -46,10 +46,10 @@ def upload_image():
         matched_image = ""
 
         # Loop through all images in the known_images folder to check for matches
-        test_image_files = [f for f in os.listdir(KNOWN_IMAGES_FOLDER) if f.endswith(('jpg', 'jpeg', 'png'))]
+        test_image_files = [f for f in os.listdir(STATIC_FOLDER) if f.endswith(('jpg', 'jpeg', 'png'))]
 
         for test_image_file in test_image_files:
-            test_image_path = os.path.join(KNOWN_IMAGES_FOLDER, test_image_file)
+            test_image_path = os.path.join(STATIC_FOLDER, test_image_file)
             test_image = face_recognition.load_image_file(test_image_path)
             test_face_encodings = face_recognition.face_encodings(test_image)
 

@@ -66,7 +66,7 @@ button.addEventListener('click', async (event) => {
                 matchedImage.src = `http://127.0.0.1:5000${data.imageUrl}`;
                 matchedImage.style.display = "block";
             } else {
-                resultDiv.innerHTML = "No match found.";
+                resultDiv.innerHTML = "No match found in the database.";
                 matchedImage.style.display = "none";
             }
         } else {
