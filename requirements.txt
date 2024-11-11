@@ -1,0 +1,4 @@
+Flask
+Flask-CORS
+face_recognition
+gunicorn  # optional for production deployment
