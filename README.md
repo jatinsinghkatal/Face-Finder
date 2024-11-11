@@ -73,14 +73,15 @@ Face-Finder-WebApp/
 ## Screenshots
 
 ### 1. Upload Form
-![Upload Form](https://github.com/jatinsinghkatal/Images_for_Readme/blob/main/Face-Finder/Screenshot%202024-11-12%20011920.png)
+![Upload Form](https://github.com/user-attachments/assets/e5f1e2d4-deac-4496-9594-87276d5dca58)
 
 ### 2. Finding a Match
-![Finding a Match](https://github.com/jatinsinghkatal/Images_for_Readme/blob/main/Face-Finder/Screenshot%202024-11-12%20012049.png)
+![Finding a Match](https://github.com/user-attachments/assets/79ea04c8-f72e-4d8d-9a60-a3220496caf6)
 
 ### 3. Match Found
-![Match Found](https://github.com/jatinsinghkatal/Images_for_Readme/blob/main/Face-Finder/Screenshot%202024-11-12%20005459.png)
+![Match Found](https://github.com/user-attachments/assets/16264417-19ba-4d4a-895d-4f6fbead60ce)
 
 ### 4. If No Faces Found
 
-![No Faces Found](https://github.com/jatinsinghkatal/Images_for_Readme/blob/main/Face-Finder/Screenshot%202024-11-12%20012131.png)
+![No Faces Found](https://github.com/user-attachments/assets/f1a89545-364c-4b2f-a966-6884a656b043)
+
